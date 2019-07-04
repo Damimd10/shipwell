@@ -20,9 +20,7 @@ When you execute the start command, a window is automatically displayed in your 
 
 ## Tools
 
-- Eslint and Prettier: Use eslint to be aware of errors that are overlooked and prettier to have a single convinced style of code.
-
-- Axios: While I could use fetch for such a simple interface I preferred to use a secure and scalable system as the architecture progresses.
+- Eslint and Prettier: eslint and prettier were included in this project to ensure consistency and style conventions in the codebase
 
 - Hooks: The new react proposal changes the paradigm of assembly of components and reduces them to very simple and reusable components, so choose to use it.
 
