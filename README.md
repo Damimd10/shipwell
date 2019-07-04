@@ -22,7 +22,7 @@ When you execute the start command, a window is automatically displayed in your 
 
 - Eslint and Prettier: eslint and prettier were included in this project to ensure consistency and style conventions in the codebase
 
-- Hooks: The new react proposal changes the paradigm of assembly of components and reduces them to very simple and reusable components, so choose to use it.
+- Hooks: The new react feature changes the paradigm of assembly of components and reduces them to very simple and reusable components, so choose to use it.
 
 Why don't I use any preprocessor?
 
