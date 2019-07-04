@@ -26,9 +26,8 @@ const addAddress = (data, payload) => [
   },
 ];
 
-const editAddress = (data, payload) => {
-  return data.map(x => {
-    console.log('HERE', x.id === payload.id, payload);
+const editAddress = (data, payload) =>
+  data.map(x => {
     if (x.id === payload.id) {
       return {
         ...x,
@@ -39,7 +38,6 @@ const editAddress = (data, payload) => {
 
     return x;
   });
-};
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
